@@ -1,0 +1,62 @@
+#header {
+    background-image: url("../images/back-header-wrapper.png");
+    background-repeat: repeat-x;
+    background-position: left top;
+    height: 150px;
+    padding: 0 50px;
+}
+
+#header span {
+    font-size: 12px;
+    color: #9EBDD4;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);    
+}
+
+.logout {
+    font-size: 12px;
+    text-decoration: none;
+    color: #9EBDD4;
+}
+
+.logo {
+   color: whitesmoke;
+   font-size: 50px;
+   text-decoration: none;
+   text-shadow: 2px 2px #9EBDD4;;
+}
+.logo:hover {
+    color: #d4d8db;
+}
+
+#header_menu {
+    height: 80px;
+}
+
+#header_menu .first {
+    border-left: 1px solid #88B2D6;
+}
+
+#header_menu td {
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #88B2D6;
+}
+
+#header_menu td a {
+    display: block;
+    height: 100%;
+    padding: 0 50px;
+    padding-top: 25px;
+    text-decoration: none;
+    
+    color: white;
+    text-shadow: 1px 1px #3C6689;
+}
+
+#header_menu td a:hover, #header_menu td .active {
+    background:url("../images/back-nav-user-options.png") repeat-x left bottom;
+}
+
+.edicion {
+    font-weight: bold;
+}

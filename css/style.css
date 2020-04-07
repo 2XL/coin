@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-mar-2014, 11:45:50
+    Author     : Sarai
+*/
+/*
+
+adjustments to bootstrap and costumized style using bootstrap :D
+*/
+
+// costumize header margin :D
+.page-header{
+    margin-top: 0;
+}
+
+.panel-body{
+    padding-top: 0;
+}
+
+.featuredImg{
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+body{
+    margin-bottom: 80px;
+    overflow-y:scroll;
+
+}
+
+
+.checked{
+    border: 6px solid greenyellow; 
+    pointer-events:none;
+ 
+}
+
+
+.active {
+   pointer-events: none;
+   cursor: default;
+}
+

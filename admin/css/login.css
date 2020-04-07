@@ -1,0 +1,38 @@
+#login {
+//	background: url('http://www.pcrigger.com/img/logoT.png') no-repeat right bottom;
+	background-size: 70%;
+    margin: 200px auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    font-family: Arial, Verdana, Serif;
+    font-size: 12px;
+    line-height: 18px;
+    color:#9C9C9C;
+}
+
+#login caption {
+    padding-left: 10px;
+    text-align: left;
+    line-height: 45px;
+    font-size: 14px;
+    font-family: "Droid Sans", Arial, Verdana;
+    color: #5a5a5a;
+    border: 1px solid #ccc;
+    background: url('../images/back-panel-title.png') repeat-x left bottom;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius:4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+}
+
+#login td {
+    padding: 5px 0;
+}
+
+#login span {
+    color: red;
+    font-weight: bold;
+    margin-left: 25px;
+}

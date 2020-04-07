@@ -1,0 +1,93 @@
+.table_edit {
+    width: 100%;
+    /*padding: 25px 100px;*/
+    padding: 0px 100px;
+}
+
+.table_edit caption, .table_list caption {
+    text-align: left;
+    font-size: 2em;
+    color: #4aaed9;
+    border-bottom: 4px solid #4aaed9;
+    margin-bottom: 25px;
+}
+
+.table_edit td {
+    vertical-align: top;
+    padding: 10px 5px;
+    font-weight: bolder;
+}
+
+
+.table_edit .titulo {
+    padding-top: 25px;
+    border-bottom: 1px solid black;
+    text-shadow: 2px 2px lightgrey;
+}
+
+
+
+.table_list {
+    font-family: Arial, Verdana, Serif;
+    font-size: 12px;
+    color:#9C9C9C;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.table_list caption .button-blue, .table_list caption .button-grey {
+    float: right;
+    margin-bottom: 1px;
+    margin-left: 5px;
+}
+
+.table_list thead {
+    line-height: 45px;
+    font-size: 14px;
+    font-family: "Droid Sans", Arial, Verdana;
+    color: #5a5a5a;
+    background: url('../images/back-panel-title.png') repeat-x left bottom;
+    text-align: left;
+}
+
+.table_list thead tr th {
+    padding: 0;
+}
+
+.table_list tbody tr:hover {
+    background-color: #f1f4f7;
+}
+
+.table_list tbody td a {
+    display: block;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+
+.table_edit ul {
+    list-style: none;
+}
+
+.table_edit ul li {
+    display: inline;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.subtable td {
+    font-size: small;
+    color: grey;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.subtable th {
+    font-weight: bold;
+    font-size: small;
+    font-style: italic;
+}

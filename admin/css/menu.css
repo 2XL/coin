@@ -1,0 +1,87 @@
+/* MENU */
+#menu, #change_edition {
+    width: 250px;
+}
+
+#menu tr {
+    background: #fff url('../images/back-panel-title.png') repeat-x left bottom;
+    box-shadow: inset 0 0 0px 1px #FFFFFF;
+}
+
+#menu td {
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 0 15px;
+}
+
+#menu .first td {
+    border-radius: 4px 4x 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-top: 1px solid #ccc;
+}
+
+#menu .last td {
+    border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+}
+
+
+#menu a {
+    text-decoration: none;
+    font-family: "Droid Sans", Arial, Verdana;
+    font-size: 14px;
+    color: #5a5a5a;
+    display: block;
+    height: 45px;
+    position: relative;
+    line-height: 45px;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color:#000;
+}
+	
+#menu tr:hover, #menu .active {
+    border-left: none;
+    border-right: none;
+    background: url("../images/back-nav-active.png") repeat-x left top;
+    box-shadow: none;
+    border-bottom: 1px solid #5084B2;
+}
+	
+#menu tr:hover a, #menu .active a {
+    color: #fff;
+    text-shadow: 1px 1px #436a8b;
+    height: 45px;
+    line-height: 45px;
+}
+
+#menu .first:hover {
+    background:url("../images/back-nav-active.png") repeat-x left top;
+}
+
+#menu .first:hover a {
+    background: url("../images/back-nav-active.png") repeat-x left top !important;
+    border-radius: 4px 4px 0 0;
+}
+
+#menu .active.first {
+    border-top: none;
+}
+
+#menu .last {
+    border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-bottom: 1px solid #ccc;
+}
+
+#menu caption {
+    text-align: left;
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 5px;
+}
